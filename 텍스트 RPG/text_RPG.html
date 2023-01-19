@@ -67,7 +67,7 @@
         ];
         this.start(name);
       }
-      start() {
+      start(name) {
         console.log(this);
         $gameMenu.addEventListener('submit', this.onGameMenuInput);
         $battleMenu.addEventListener('submit', this.onBattleMenuInput);
